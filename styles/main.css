@@ -1,0 +1,13 @@
+:root {
+  --color-bg: #ffffff;
+  --color-text: #1a1a1a;
+  --color-accent: #2563eb;
+  --color-muted: #6b7280;
+  --font-body: 'Georgia', serif;
+  --font-heading: 'Helvetica', sans-serif;
+  --spacing-unit: 8px;
+}
+
+body {
+  background: #f0f0f0;
+}
