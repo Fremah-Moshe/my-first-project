@@ -11,3 +11,10 @@
 body {
   background: #f0f0f0;
 }
+/* margin = space outside the border; padding = space inside the border */
+.post-card {
+  max-width: 600px;
+  margin: 24px auto;
+  padding: 16px;
+  border: 1px solid var(--color-muted);
+}
