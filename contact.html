@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Fredrick Omondi</title>
+  </head>
+  <body>
+    <header>
+      <h1>Contact</h1>
+      <p>Let’s connect — opportunities, collaborations, or questions.</p>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projetcs.html">Projects</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>Send a Message</h2>
+
+        <form>
+          <label for="name">Your Name</label><br />
+          <input type="text" id="name" name="name" required /><br /><br />
+
+          <label for="email">Your Email</label><br />
+          <input type="email" id="email" name="email" required /><br /><br />
+
+          <label for="subject">Subject</label><br />
+          <select id="subject" name="subject">
+            <option value="general">General Inquiry</option>
+            <option value="project">Project Collaboration</option>
+            <option value="opportunity">Job / Opportunity</option>
+            <option value="other">Other</option></select
+          ><br /><br />
+
+          <p>Preferred Contact Method</p>
+          <label>
+            <input type="radio" name="contact_pref" value="email" checked />
+            Email </label
+          ><br />
+          <label>
+            <input type="radio" name="contact_pref" value="phone" />
+            Phone </label
+          ><br />
+          <label>
+            <input type="radio" name="contact_pref" value="whatsapp" />
+            WhatsApp </label
+          ><br /><br />
+
+          <!-- Message -->
+          <label for="message">Your Message</label><br />
+          <textarea id="message" name="message" rows="6" required></textarea
+          ><br /><br />
+
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+
+      <section>
+        <h2>FAQ</h2>
+
+        <details>
+          <summary>How quickly do you respond?</summary>
+          <p>I usually reply within 24–48 hours depending on workload.</p>
+        </details>
+
+        <details>
+          <summary>Are you open to freelance or contract work?</summary>
+          <p>
+            Yes — especially projects involving full‑stack development or system
+            design.
+          </p>
+        </details>
+
+        <details>
+          <summary>Can I collaborate with you on a learning project?</summary>
+          <p>
+            Absolutely. I enjoy building with others, especially if it helps us
+            grow.
+          </p>
+        </details>
+
+        <details>
+          <summary>Do you offer mentorship?</summary>
+          <p>Not formally, but I’m always open to sharing what I know.</p>
+        </details>
+      </section>
+    </main>
+  </body>
+</html>
