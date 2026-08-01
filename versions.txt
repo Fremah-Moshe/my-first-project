@@ -1,0 +1,25 @@
+$ code --version
+1.131.0
+e4c7e7b1d6d060162f4aa7f8225271b67ce1df75
+x64
+
+$ git --version
+git version 2.55.0.windows.3
+
+$ node --version
+v26.5.0
+
+$ npm --version
+11.17.0
+................................................................
+omond@Skynet MINGW64 ~ (main)
+$ git config --global user.name
+Fredrick Omondi
+
+omond@Skynet MINGW64 ~ (main)
+$ git config --global user.email
+omondif@icloud.com
+
+omond@Skynet MINGW64 ~ (main)
+$
+
